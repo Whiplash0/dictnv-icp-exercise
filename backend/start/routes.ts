@@ -24,7 +24,6 @@ Route.post('/user/update', isAuth, UsersController.update);
 */
 
 Route.get('/health', ApisController.health);
-Route.get('/config', ApisController.config);
 
 
 export { Route as routes };
